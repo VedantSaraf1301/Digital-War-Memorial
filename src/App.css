@@ -1,0 +1,127 @@
+/* src/App.css */
+:root {
+  --army-green: #4b5320;
+  --saffron: #FF9933;
+  --white: #ffffff;
+  --navy: #000080;
+  --bg-color: #f4f4f9;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-color);
+  color: #333;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, var(--army-green), #2c3e50);
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.hero-section h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Card Styling */
+.card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-top: 5px solid var(--saffron);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.card-image-container {
+  height: 250px;
+  overflow: hidden;
+  background-color: #ddd;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.rank-badge {
+  background-color: var(--navy);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.card h2 {
+  margin: 1rem 0 0.5rem;
+  color: var(--army-green);
+}
+
+.regiment {
+  color: #666;
+  font-weight: bold;
+  margin: 0;
+}
+
+.war-tag {
+  color: var(--saffron);
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.description {
+  font-style: italic;
+  color: #555;
+  margin: 1rem 0;
+  line-height: 1.5;
+}
+
+.salute-btn {
+  background-color: var(--army-green);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+.salute-btn:hover {
+  background-color: #3a4019;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #333;
+  color: #888;
+  margin-top: 2rem;
+}
