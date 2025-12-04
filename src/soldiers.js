@@ -27,7 +27,7 @@ export const soldiers = [
     regiment: "13 Kumaon",
     war: "Sino-Indian War (1962)",
     award: "Param Vir Chakra",
-    image: "https://upload.wikimedia.org/wikipedia/en/2/23/Major_Shaitan_Singh.jpg",
+    image: "/shaitan_S.jpg",
     desc: "Led the 'Charlie Company' at Rezang La. Fighting with only 120 men against 1000s, he refused to retreat and fought till the last man.",
   },
   {
@@ -37,7 +37,7 @@ export const soldiers = [
     regiment: "9 Para (Special Forces)",
     war: "Pampore Operation (2016)",
     award: "Shaurya Chakra",
-    image: "https://upload.wikimedia.org/wikipedia/commons/8/86/Captain_Tushar_Mahajan.jpg", 
+    image: "tushar_m.jpg", 
     desc: "Eliminated a terrorist in close quarters at the EDI building to save his subordinates, sacrificing his life in the process.",
   },
   {
@@ -47,7 +47,7 @@ export const soldiers = [
     regiment: "4 Kumaon",
     war: "Indo-Pak War (1947)",
     award: "Param Vir Chakra",
-    image: "https://upload.wikimedia.org/wikipedia/en/b/b6/Maj_Somnath_Sharma_PVC.jpg",
+    image: "somnath_s.jpg",
     desc: "The first recipient of the PVC. His last message was: 'The enemy is only 50 yards from us... I shall not withdraw an inch but will fight to our last man and our last round.'",
   },
   {
@@ -57,7 +57,7 @@ export const soldiers = [
     regiment: "4 Grenadiers",
     war: "Indo-Pak War (1965)",
     award: "Param Vir Chakra",
-    image: "https://upload.wikimedia.org/wikipedia/commons/e/e3/Abdul_Hamid_PVC.jpg",
+    image: "abdul_h.jpg",
     desc: "In the Battle of Asal Uttar, he single-handedly destroyed 7 Pakistani Patton tanks using a jeep-mounted recoilless gun.",
   },
   {
@@ -67,7 +67,7 @@ export const soldiers = [
     regiment: "18 Grenadiers",
     war: "Kargil War (1999)",
     award: "Param Vir Chakra",
-    image: "https://upload.wikimedia.org/wikipedia/commons/8/82/Yogendra_Singh_Yadav.jpg",
+    image: "yogendra_s.jpg",
     desc: "The youngest PVC recipient. He climbed the vertical cliff of Tiger Hill. Despite taking 15 bullets, he crawled forward to destroy enemy bunkers.",
   },
   {
@@ -77,7 +77,7 @@ export const soldiers = [
     regiment: "9 Para (Special Forces)",
     war: "Operation Rakshak (2020)",
     award: "Kirti Chakra",
-    image: "https://upload.wikimedia.org/wikipedia/commons/e/eb/Ashoka_Chakra_medal_ribbon.svg", // Placeholder image (Medal ribbon) as high-quality public photo is rare
+    image: "cps.jpg", // Placeholder image (Medal ribbon) as high-quality public photo is rare
     desc: "Displayed exceptional bravery during an anti-terrorist operation in Kashmir, holding off terrorists to ensure the safety of his squad.",
   },
   {
@@ -87,7 +87,7 @@ export const soldiers = [
     regiment: "1 Para (Special Forces)",
     war: "Op Rakshak - Kupwara (2009)",
     award: "Ashoka Chakra",
-    image: "https://upload.wikimedia.org/wikipedia/en/b/b6/Maj_Mohit_Sharma.jpg",
+    image: "mohit-sharma.jpg",
     desc: "Infiltrated Hizbul Mujahideen under the alias 'Iftikhar'. In his final battle, he killed 4 terrorists despite grave injuries to save his team.",
   },
   {
@@ -97,7 +97,7 @@ export const soldiers = [
     regiment: "2 Rajputana Rifles",
     war: "Kargil War (1999)",
     award: "Vir Chakra",
-    image: "https://upload.wikimedia.org/wikipedia/commons/a/a2/Captain_Vijayant_Thapar.jpg",
+    image: "v_thapar.jpg",
     desc: "Captured the Knoll in the Battle of Tololing. His final letter to his family said, 'By the time you get this, I will be observing you from the sky.'",
   },
   {
@@ -107,7 +107,7 @@ export const soldiers = [
     regiment: "10 Para (Special Forces)",
     war: "Pampore Operation (2016)",
     award: "Shaurya Chakra",
-    image: "https://upload.wikimedia.org/wikipedia/en/7/7b/Captain_Pawan_Kumar.jpg",
+    image: "pawan_kumar.jpg",
     desc: "Led his men into the EDI building against terrorists. His famous quote: 'Kisiko reservation chahiye... humein bas apni razai (flag) chahiye.'",
   },
 
@@ -119,7 +119,7 @@ export const soldiers = [
     regiment: "1/11 Gorkha Rifles",
     war: "Kargil War (1999)",
     award: "Param Vir Chakra",
-    image: "https://upload.wikimedia.org/wikipedia/en/2/25/Manoj_Kumar_Pandey_PVC.jpg",
+    image: "/manoj_k.jpg",
     desc: "Led the capture of Jubar Top. Despite being wounded, he destroyed 4 bunkers. His final words: 'Na chodnu' (Don't spare them).",
   },
   {
@@ -129,7 +129,7 @@ export const soldiers = [
     regiment: "13 JAK RIF",
     war: "Kargil War (1999)",
     award: "Param Vir Chakra",
-    image: "https://upload.wikimedia.org/wikipedia/commons/2/26/Sanjay_Kumar_PVC.jpg",
+    image: "sanjay_kumar.jpg",
     desc: "Captured Area Flat Top. He ran out of ammo, picked up an enemy machine gun, and killed the remaining intruders in hand-to-hand combat.",
   },
 
@@ -141,7 +141,7 @@ export const soldiers = [
     regiment: "17 Poona Horse",
     war: "Indo-Pak War (1971)",
     award: "Param Vir Chakra",
-    image: "https://upload.wikimedia.org/wikipedia/en/3/3f/Arun_Khetarpal_PVC.jpg",
+    image: "/arun-k.jpg",
     desc: "The 'Tank Destroyer' of Basantar. At age 21, he destroyed 10 enemy tanks. His last radio message: 'No sir, I will not abandon my tank. My gun is still working.'",
   },
   {
@@ -151,7 +151,7 @@ export const soldiers = [
     regiment: "14 Guards",
     war: "Indo-Pak War (1971)",
     award: "Param Vir Chakra",
-    image: "https://upload.wikimedia.org/wikipedia/en/1/1d/Albert_Ekka_PVC.jpg",
+    image: "albert_ekka.jpg",
     desc: "During the Battle of Gangasagar, he silenced two enemy machine guns and bayoneted an enemy soldier, ensuring the fall of a key Pakistani fortress.",
   },
 
@@ -163,7 +163,7 @@ export const soldiers = [
     regiment: "1 Sikh",
     war: "Sino-Indian War (1962)",
     award: "Param Vir Chakra",
-    image: "https://upload.wikimedia.org/wikipedia/en/0/03/Joginder_Singh_PVC.jpg",
+    image: "joginder_singh.jpg",
     desc: "At Bum La, he led his platoon against three waves of Chinese attacks. When ammo ran out, he led a bayonet charge shouting 'Jo Bole So Nihal, Sat Sri Akal'.",
   },
   {
@@ -173,7 +173,7 @@ export const soldiers = [
     regiment: "1/8 Gorkha Rifles",
     war: "Sino-Indian War (1962)",
     award: "Param Vir Chakra",
-    image: "https://upload.wikimedia.org/wikipedia/en/f/f3/Dhan_Singh_Thapa_PVC.jpg",
+    image: "dhan_s_t.jpg",
     desc: "Commanded a post at Pangong Lake (Ladakh). He was believed dead after fighting off multiple Chinese waves, but was later found alive as a POW.",
   }
 ];
