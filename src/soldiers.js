@@ -22,17 +22,6 @@ export const soldiers = [
   },
   {
     id: 3,
-    name: "Flying Officer Nirmal Jit Singh Sekhon",
-    rank: "Flying Officer",
-    regiment: "No. 18 Squadron IAF",
-    war: "Indo-Pak War (1971)",
-    award: "Param Vir Chakra",
-    image: "./public/njss.jpg", // Wiki Commons
-    desc: "The only IAF officer to receive the Param Vir Chakra for his defense of Srinagar Air Base."
-  },
-  
-  {
-    id: 3,
     name: "Major Shaitan Singh",
     rank: "Major",
     regiment: "13 Kumaon",

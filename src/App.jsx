@@ -1,4 +1,3 @@
-// src/App.jsx
 import { useEffect, useReducer, useMemo, useCallback } from 'react';
 import { soldiers } from './soldiers';
 import SoldierCard from './SoldierCard';
