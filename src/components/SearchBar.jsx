@@ -1,13 +1,6 @@
-import { useDebounce } from '../hooks/useDebounce';
 import './SearchBar.css';
 
-/**
- * Search bar component with debounced input
- * Demonstrates: controlled components, custom hooks, event handling
- */
 function SearchBar({ searchQuery, onSearchChange }) {
-    // Debounce is handled in parent component
-
     return (
         <div className="search-bar">
             <input
