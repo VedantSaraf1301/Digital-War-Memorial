@@ -1,15 +1,19 @@
-import { createContext, useContext } from 'react';
-import { useLocalStorage } from '../hooks/useLocalStorage';
+import { createContext, useContext, useState, useEffect } from 'react';
 
-/**
- * Theme Context for global dark/light mode state
- * Demonstrates: createContext, useContext, Context Provider pattern
- */
 const ThemeContext = createContext();
 
 export function ThemeProvider({ children }) {
-    // Use custom hook for persistent theme preference
-    const [theme, setTheme] = useLocalStorage('war-memorial-theme', 'light');
+    // Simple state for theme
+    const [theme, setTheme] = useState(() => {
+        // Get saved theme from localStorage or default to 'light'
+        const saved = localStorage.getItem('war-memorial-theme');
+        return saved || 'light';
+    });
+
+    
+    useEffect(() => {
+        localStorage.setItem('war-memorial-theme', theme);
+    }, [theme]);
 
     const toggleTheme = () => {
         setTheme(prevTheme => prevTheme === 'light' ? 'dark' : 'light');
@@ -28,7 +32,6 @@ export function ThemeProvider({ children }) {
     );
 }
 
-// Custom hook to use theme context
 export function useTheme() {
     const context = useContext(ThemeContext);
     if (!context) {

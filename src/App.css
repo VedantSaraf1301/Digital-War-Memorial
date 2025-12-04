@@ -158,3 +158,22 @@ footer {
   color: #888;
   margin-top: 2rem;
 }
+
+footer p {
+  margin-bottom: 1rem;
+}
+
+.ndf-btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #4b5320;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.ndf-btn:hover {
+  background-color: #3a4019;
+}
